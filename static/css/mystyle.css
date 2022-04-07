@@ -1,0 +1,268 @@
+.partners-image-wrapper {
+	display: inline-block; 
+    margin: 20px;
+}
+
+.partners-image-container {
+	height: 15rem;
+	width: 100%;
+    vertical-align: middle;
+    text-align: center;
+    display: table-cell;
+}
+
+.partners-image {
+	max-width: 100%;
+	max-height: 100%;
+	display: block;
+	margin: 0;
+}
+
+.creativity-font {
+	font-family: 'leckerli_oneregular';
+}
+
+.name-introduction{
+	font-size: 1.3rem;
+  color: #fff;
+  line-height: 1;
+}
+
+.name-tittle {
+	font-size: 5vw !important;
+	color: white !important;
+	line-height: 1 !important;
+	margin: 0.5rem 0.5rem 0.5rem 0rem;
+	border-bottom: 0.3rem solid #FDC05D;
+  display: inline-block;
+  padding-bottom: 0rem;
+}
+
+.chivo-font {
+	font-family: 'Chivo', sans-serif;
+}
+.montserrat-font-800 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+}
+.montserrat-font-600 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+}
+.cinzel-font {
+	font-family: 'Cinzel', serif;
+}
+.vollkorn-font {
+	font-family: 'Vollkorn', serif;
+}
+
+
+
+
+html, body {
+	height: auto;
+	min-height: 100%;
+}
+
+.vertical-middle {
+	vertical-align: middle;
+}
+
+#section-acoes a.btn {
+	font-size: 1.2rem !important;
+}
+
+.h3-smaller {
+	font-size: 1.50rem !important;
+}
+
+.count-number {
+	color: #FDC05D;
+	font-size: 6rem;
+	background-color: rgba(254, 208, 134, 0.2);
+  border-radius: 50%;
+  box-shadow: 4px 0px 10px 0px rgb(0 0 0 / 20%);
+}
+
+.number-title {
+	font-size: 3.5rem;
+}
+
+header{
+	background-color: rgba(0,0,0, 0.8);
+	position: fixed !important;
+	top: 0;
+	display: block;
+	transition: top 0.3s;
+}
+
+.hamb-container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #ffffff;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+#section-home {
+	padding-top: 0 !important;
+}
+
+.text-black .bar1, .text-black .bar2, .text-black .bar3 {
+	background-color: #212529 !important;
+}
+
+.about-img {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.item-1 {
+	box-shadow: 4px 0px 10px 0px rgb(0 0 0 / 20%);
+}
+
+.img-container {
+	position: relative; 
+	height: 225px; 
+	width: 100%;
+	overflow: hidden;
+}
+
+.img-container .img-1 {
+	position: absolute;
+	right: 0;
+	top: -15px;
+}
+
+.item-1-contents {
+	height: 250px;
+}
+
+blockquote p {
+	font-size: 1.2rem;
+}
+
+.outer-shadow {
+	box-shadow: 4px 0px 10px 0px rgb(0 0 0 / 20%);
+}
+
+.testimonial-2 {
+    height: 100%;
+}
+
+.btn-primary:hover {
+	background-color: #DE8A02;
+	border-color: #DE8A02;
+}
+
+.btn-primary:active {
+	background-color: #DE8A02 !important;
+	border-color: #DE8A02 !important;
+}
+
+.no-padding {
+	padding-bottom: 0px !important; 
+}
+
+footer {
+	color: #ffffff;
+	font-size: 1rem;
+}
+
+.footer-logo {
+	height: 10rem;
+}
+
+.canva-presentation {
+	position: relative; 
+	width: 100%; 
+	height: 0; 
+	padding-top: 56.2500%; 
+	padding-bottom: 48px; 
+	box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); 
+	margin-top: 2em; 
+	margin-bottom: 0.9em; 
+	overflow: hidden; 
+	border-radius: 8px; 
+	will-change: transform;
+}
+
+.canva-presentation-iframe {
+	position: absolute; 
+	width: 100%; 
+	height: 100%; 
+	top: 0; 
+	left: 0; 
+	border: none; 
+	padding: 0;
+	margin: 0;
+}
+
+
+.btn-primary{
+  background-color: #FDC05D;
+  border-color: #FDC05D;
+}
+
+/* Top Menu */
+.site-menu > li.active > a {
+  color: #FED086 !important;
+}
+
+.primary-color {
+	color:  #14213D !important;
+}
+
+.primary-light-color {
+	color:  #495267 !important;
+}
+
+
+.accent-color {
+	color: #FDC05D !important;
+}
+
+.light-color {
+	color: #FED086 !important;
+}
+
+.dark-color {
+	color: #DE8A02 !important;
+}
+
+
+
+.black-overlay {
+  position: relative; 
+}
+.black-overlay:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1; 
+}
